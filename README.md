@@ -50,7 +50,7 @@ opam install . --deps-only
 If your version of Opam is less than `2.1`, then you will also need to add the beta repository when creating the switch. All of the other commands remain the same.
 
 ```
-opam switch create 5.0.0+trunk --repo=default,beta=git+https://github.com/ocaml/ocaml-beta-repository.git,alpha=git+https://github.com/kit-ty-kate/opam-alpha-repository.git
+opam switch create 5.1.0 --repo=default,beta=git+https://github.com/ocaml/ocaml-beta-repository.git,alpha=git+https://github.com/kit-ty-kate/opam-alpha-repository.git
 ```
 
 Running `make` will build all of the examples. If you want to run a single executable that is built with `dune` you can run:
